@@ -1,3 +1,4 @@
+
 while True:
     operacion = "Reinicio cada ciclo"
     while operacion != "Sumar" and operacion != "Restar" and operacion != "Multiplicar" and operacion != "Dividir" and operacion != "Potenciar" and operacion != "Salir":

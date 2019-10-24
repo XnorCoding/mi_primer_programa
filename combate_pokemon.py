@@ -1,5 +1,6 @@
 pokemon_elegido="MisigNo"
 
+
 while pokemon_elegido != "Squirtle" and pokemon_elegido != "Charmander" and pokemon_elegido != "Bulbasaur":
     pokemon_elegido = input("Contra qué Pokemon quieres combatir? (Squirtle / Charmander / Bulbasaur): ")
 
