@@ -2,7 +2,7 @@ from random import random
 
 while True:
     numero_oculto = round(random()*10)
-    print("Cheto del programador: El número que ha elegido la máquina es el {}. No se lo digas o se enfadará...".format(numero_oculto))
+    #print("Cheto del programador: El número que ha elegido la máquina es el {}. No se lo digas o se enfadará...".format(numero_oculto))
     intentos = 0
     acertado = False
     print("\nYa he elegido un número del 0 al 10, tienes 3 intentos para adivinarlo.\n")
@@ -24,7 +24,7 @@ while True:
         print("Quieres jugar otra vez?")
 
     revancha = input("Quieres jugar otra partida?: (Sí/No)   ")
-    if revancha == "No":
+    if revancha == "No" or revancha == "no":
         break
 
-print("Vale, ya nos veremos. Cuídate!! \nPrograma finalizado.")
+print("Vale, ya nos veremos. Cuídate!! \n...\n...\nPrograma finalizado.")
